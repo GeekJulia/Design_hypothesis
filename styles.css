@@ -31,7 +31,7 @@ img{
     position: absolute;
     transform:translate(160px,30px);
     color:azure;
-    background-color: blue;
+    background-color:saddlebrown;
     border-width: 2px;
     border-radius: 10px;
 
@@ -45,7 +45,7 @@ img{
     position: absolute;
     transform:translate(1200px,30px);
     color:azure;
-    background-color:violet;
+    background-color:chocolate;
     border-width: 2px;
     border-radius: 10px;
 }
@@ -58,7 +58,7 @@ img{
     position: absolute;
     transform:translate(160px,400px);
     color:white;
-    background-color: lightpink;
+    background-color:saddlebrown;
     border-width: 2px;
     border-radius: 10px;
 }
@@ -71,7 +71,15 @@ img{
     position: absolute;
     transform:translate(1100px,420px);
     color:azure;
-    background-color:green;
+    background-color:sienna;
     border-width: 2px;
     border-radius: 10px;
+}
+.middle{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
