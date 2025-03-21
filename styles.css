@@ -19,8 +19,8 @@ h1{
     margin: 20px; 
     display:flex;
 }
-img{
-    padding-left: 10px;
+#teamimage{
+    padding-left: 10px; 
 }
 #firstName{
     width: 37px;
@@ -133,7 +133,7 @@ p{
     transform: translate(440px,2px);
 }
 #secBtn{
-    width: 170px;
+    width: 180px;
     height:50px;
     display: flex;
     justify-content: center;
@@ -144,7 +144,7 @@ p{
     transform: translate(460px,2px);
 }
 #thirdBtn{
-    width: 150px;
+    width: 130px;
     height:50px;
     display: flex;
     justify-content: center;
